@@ -5,7 +5,7 @@
  * @param target 
  * @returns 
  */
-function twoSum(nums: number[], target: number): number[] {
+function twoSum1(nums: number[], target: number): number[] {
     const map = new Map<number, number[] | undefined>();
     let out: number[] = [];
 
