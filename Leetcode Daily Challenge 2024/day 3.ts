@@ -1,4 +1,4 @@
-class Solution {
+export class Solution {
 
 /**
  * Return the total number of laser beams in the bank.
