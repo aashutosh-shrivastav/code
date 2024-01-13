@@ -15,16 +15,16 @@ export class Solution {
                 dp.push(nums[i]);
             }
             else {
-                const indexToReplace = indexToReplace(dp, nums[i]);
+                // const indexToReplace = indexToReplace(dp, nums[i]);
                 dp[indexToReplace] = nums[i];
             }
         }
 
         return lis;
     };
-    indexToReplace(dp: number[], val: number) {
+    // indexToReplace(dp: number[], val: number) {
 
-    }
+    // }
     binarySearch(arr: number[], target: number): number {
         let left = 0;
         let right = arr.length - 1;
